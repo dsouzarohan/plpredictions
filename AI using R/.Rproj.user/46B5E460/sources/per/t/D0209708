@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1535600333696.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D0209708",
+    "lastKnownWriteTime" : 31525476567548001,
+    "last_content_update" : 1535600333696,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "0a17a25e6218441b8ee12f7bfb91ffa6",
+        "name" : "SparseMatrix",
+        "title" : "SparseMatrix"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

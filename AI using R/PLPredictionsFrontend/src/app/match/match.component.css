@@ -1,0 +1,42 @@
+.row-width-100{
+  width: 100%;
+}
+
+.button{
+  background: #e90052;
+  color: white;
+  margin: auto;
+  border: 0px outset buttonface;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 6px 15px;
+}
+
+.header-pl-predict{
+  font-family: 'Questrial', sans-serif;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.para-pl-predict-inst{
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  font-weight: bold;
+}
+
+.form-global{
+  font-family: 'Raleway', sans-serif;
+}
+
+.label{
+  font-weight: bold;
+}
+
+.alert{
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+  margin-top: 15px;
+}

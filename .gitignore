@@ -1,0 +1,40 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/AI using R/PLPredictionsFrontend/dist
+/AI using R/PLPredictionsFrontend/tmp
+/AI using R/PLPredictionsFrontend/out-tsc
+
+# dependencies
+/AI using R/PLPredictionsFrontend/node_modules
+
+# IDEs and editors
+/AI using R/PLPredictionsFrontend/.idea
+/AI using R/PLPredictionsFrontend.project
+/AI using R/PLPredictionsFrontend.classpath
+/AI using R/PLPredictionsFrontend.c9/
+/AI using R/PLPredictionsFrontend*.launch
+/AI using R/PLPredictionsFrontend.settings/
+/AI using R/PLPredictionsFrontend*.sublime-workspace
+
+# IDE - VSCode
+/AI using R/PLPredictionsFrontend.vscode/*
+/AI using R/PLPredictionsFrontend!.vscode/settings.json
+/AI using R/PLPredictionsFrontend!.vscode/tasks.json
+/AI using R/PLPredictionsFrontend!.vscode/launch.json
+/AI using R/PLPredictionsFrontend!.vscode/extensions.json
+
+# misc
+/AI using R/PLPredictionsFrontend/.sass-cache
+/AI using R/PLPredictionsFrontend/connect.lock
+/AI using R/PLPredictionsFrontend/coverage
+/AI using R/PLPredictionsFrontend/libpeerconnection.log
+/AI using R/PLPredictionsFrontendnpm-debug.log
+/AI using R/PLPredictionsFrontendyarn-error.log
+/AI using R/PLPredictionsFrontendtestem.log
+/AI using R/PLPredictionsFrontend/typings
+
+# System Files
+/AI using R/PLPredictionsFrontend.DS_Store
+/AI using R/PLPredictionsFrontendThumbs.db
+.Rproj.user

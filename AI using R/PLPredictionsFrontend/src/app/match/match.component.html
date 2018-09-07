@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row text-center">
+    <h1 class="header-pl-predict">Premier League - Predict a match!</h1>
+    <p class="para-pl-predict-inst">
+      Choose the teams from the dropdowns below and click on 'Predict'
+    </p>
+    <div class="row text-center row-width-100">
+      <div class="col-md-6">
+        <form class="form-global">
+          <div class="form-group">
+            <label class="label" for="exampleFormControlSelect1">Home team</label>
+            <select class="form-control" id="exampleFormControlSelect1" #homeTeam>
+              <option *ngFor="let team of listOfTeams">{{team.dropdownName}}</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <form class="form-global">
+          <div class="form-group">
+            <label class="label" for="exampleFormControlSelect2">Away team</label>
+            <select class="form-control" id="exampleFormControlSelect2" #awayTeam>
+              <option *ngFor="let team of listOfTeams">{{team.dropdownName}}</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="row text-center row-width-100">
+      <button class="button" type="button" (click)="onPredictClick()">Predict</button>
+    </div>
+    <div *ngIf="toShowError" class="alert alert-danger" role="alert">
+      You <b>cannot</b> select the same teams<br> Please select <b>different</b> teams and try again
+    </div>
+</div>
+</div>
